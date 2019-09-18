@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: Acme, sans-serif;
+  margin: .5em 0;
+}
+
+p {
+    margin: .5em 0;
+}
+
+.personal-info {
+  background-color: #32c0df;
+  border: solid 8px #d7970e;
+  color: #fff;
+  max-width: 40em;
+  padding: .5em;
+  text-align: center;
+}
+
+.personal-info a {
+  text-decoration: none;
+}
+
+.personal-info a:hover {
+  background-color: #d6320c;
+  color: #fff;
+  padding: .25em;
+}
+
+.personal-info li {
+  display: inline-block;
+  padding: .25em;
+}
+
+.personal-info ul {
+  list-style-type: none;
+}
+
+.personal-info img {
+  margin: 0;
+}
